@@ -136,16 +136,6 @@
         <para>Included platforms.</para>
       </summary>
     </member>
-    <member name="T:UnityEngine.TestTools.UnitySetUpAttribute">
-      <summary>
-        <para>Special type of a SetUp that allows to yield before the test is running.</para>
-      </summary>
-    </member>
-    <member name="T:UnityEngine.TestTools.UnityTearDownAttribute">
-      <summary>
-        <para>Special type of a TearDown that allows to yield after the test is running.</para>
-      </summary>
-    </member>
     <member name="T:UnityEngine.TestTools.UnityTestAttribute">
       <summary>
         <para>Special type of a unit test that allows to yield from test in order to skip frames when the test is running.</para>

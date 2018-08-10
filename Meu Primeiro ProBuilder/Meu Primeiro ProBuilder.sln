@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder.Editor", "Meu Primeiro ProBuilder.Editor.csproj", "{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder", "Meu Primeiro ProBuilder.csproj", "{E57878D7-8905-7798-E48B-930252AC1A40}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder", "Meu Primeiro ProBuilder.csproj", "{E57878D7-8905-7798-E48B-930252AC1A40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder", "Meu Primeiro ProBuilder.csproj", "{E57878D7-8905-7798-E48B-930252AC1A40}"
@@ -15,9 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder.Edi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder.Editor", "Meu Primeiro ProBuilder.Editor.csproj", "{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder", "Meu Primeiro ProBuilder.csproj", "{E57878D7-8905-7798-E48B-930252AC1A40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder.Editor", "Meu Primeiro ProBuilder.Editor.csproj", "{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meu Primeiro ProBuilder.Plugins", "Meu Primeiro ProBuilder.Plugins.csproj", "{456EE122-EF2A-6FDD-E080-66415F8D7759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57878D7-8905-7798-E48B-930252AC1A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57878D7-8905-7798-E48B-930252AC1A40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E57878D7-8905-7798-E48B-930252AC1A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,14 +63,10 @@ Global
 		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E57878D7-8905-7798-E48B-930252AC1A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E57878D7-8905-7798-E48B-930252AC1A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E57878D7-8905-7798-E48B-930252AC1A40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1DE65AD-EDAB-6C72-DF02-51CAEE94A2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456EE122-EF2A-6FDD-E080-66415F8D7759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456EE122-EF2A-6FDD-E080-66415F8D7759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456EE122-EF2A-6FDD-E080-66415F8D7759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456EE122-EF2A-6FDD-E080-66415F8D7759}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
